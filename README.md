@@ -12,8 +12,11 @@ The dataset used in this project was obtained from Kaggle, featuring images of l
 
 # Approach Description
 The finger-counting approach involves the following steps:
+
 **Image Smoothing**: Apply a Gaussian filter to reduce noise and enhance image quality.
+
 **Thresholding**: Use Otsu thresholding to convert the smoothed image into a binary image.
+
 **Hole Closing**: Use morphological operations to close gaps in the hand region and make it solid.
 **Contour Filtering**: Identify contours in the thresholded image (optional if one hand is assumed).
 **Convex Hull and Defects**: Compute the convex hull (outer boundary) and defects (concave regions between fingers) of the hand contour.
