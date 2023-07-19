@@ -7,6 +7,9 @@ such as virtual reality, robotics, and sign language interpretation. We aim to d
 
 This project focuses on applying non-learning techniques to count the number of fingers in a color image of a cropped hand. We explore using digital image processing algorithms and methods to detect and quantify the fingers held up in the hand image. We aim to develop an effective solution that can handle varying hand orientations, shapes, and sizes by leveraging image enhancement, segmentation, and contour analysis techniques.
 
+# Languages
+In this project, Python and Jupyter Notebook were used along with the OpenCV library (cv2) for image processing and computer vision tasks.
+
 # Dataset
 The dataset used in this project was obtained from Kaggle, featuring images of left or right hands with categorized finger counts (0 to 5). It offers diverse hand orientations, shapes, and sizes, ensuring a realistic representation of finger-counting scenarios. Care was taken to maintain balance across finger count categories, minimizing bias. The dataset will be used to evaluate the proposed non-learning-based image processing techniques' performance.
 
